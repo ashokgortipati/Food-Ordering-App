@@ -1,0 +1,257 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Bella Italia Bistro",
+      "location": "Downtown Central, 4th Avenue",
+      "description": "Authentic stone-oven pizzas, artisanal handcrafted pasta, and classic Italian desserts.",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.8,
+      "cuisineType": "Italian",
+      "deliveryTime": "25-35 mins"
+    },
+    {
+      "id": "2",
+      "name": "Spice Symphony",
+      "location": "Spice Garden Road, East Side",
+      "description": "Rich royal curries, fragrant biryanis, and tandoori charcoal specialties cooked to perfection.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.7,
+      "cuisineType": "Indian",
+      "deliveryTime": "30-45 mins"
+    },
+    {
+      "id": "3",
+      "name": "Urban Burger Co.",
+      "location": "North Boulevard Plaza",
+      "description": "Gourmet smash burgers, crispy loaded fries, and signature milkshakes made with premium Angus beef.",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.6,
+      "cuisineType": "Burgers & Fast Food",
+      "deliveryTime": "20-30 mins"
+    },
+    {
+      "id": "4",
+      "name": "Tokyo Zen Japanese",
+      "location": "Harbor View Lane",
+      "description": "Fresh sashimi, handcrafted sushi rolls, steaming ramen bowls, and tempura delights.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.9,
+      "cuisineType": "Japanese",
+      "deliveryTime": "30-40 mins"
+    },
+    {
+      "id": "5",
+      "name": "Green Bowl Organics",
+      "location": "Greenwood District, 2nd Street",
+      "description": "Nourishing superfood bowls, cold-pressed raw juices, fresh organic wraps, and vegan treats.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.5,
+      "cuisineType": "Healthy & Vegan",
+      "deliveryTime": "20-35 mins"
+    }
+  ],
+  "foods": [
+    {
+      "id": "101",
+      "restaurantId": "1",
+      "name": "Margherita Con Basilico",
+      "category": "Pizza",
+      "price": 14.99,
+      "description": "San Marzano tomato sauce, fresh buffalo mozzarella, aromatic fresh basil leaves, and virgin olive oil.",
+      "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "102",
+      "restaurantId": "1",
+      "name": "Truffle Mushroom Fettuccine",
+      "category": "Pasta",
+      "price": 18.5,
+      "description": "Creamy wild mushroom ragu, black truffle oil, fresh herbs, and shaved aged parmesan.",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "103",
+      "restaurantId": "1",
+      "name": "Classic Tiramisu Classico",
+      "category": "Dessert",
+      "price": 8.5,
+      "description": "Espresso-soaked ladyfingers, velvety mascarpone cream, and Dutch cocoa dust.",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "104",
+      "restaurantId": "2",
+      "name": "Royal Butter Chicken",
+      "category": "Curry",
+      "price": 16.99,
+      "description": "Tender tandoor-roasted chicken in a rich, buttery, spiced tomato cream sauce.",
+      "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "105",
+      "restaurantId": "2",
+      "name": "Hyderabadi Dum Biryani",
+      "category": "Rice",
+      "price": 15.5,
+      "description": "Fragrant basmati rice layered with spiced marinated meat, caramelized onions, and saffron.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "106",
+      "restaurantId": "2",
+      "name": "Garlic Herb Butter Naan",
+      "category": "Bread",
+      "price": 4.5,
+      "description": "Freshly baked clay-oven flatbread brushed with roasted garlic butter and cilantro.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "107",
+      "restaurantId": "3",
+      "name": "The Classic Smash Burger",
+      "category": "Burger",
+      "price": 12.99,
+      "description": "Double Angus beef patties, American melted cheese, house pickle relish, and secret sauce on brioche.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "108",
+      "restaurantId": "3",
+      "name": "Truffle Parmesan Loaded Fries",
+      "category": "Sides",
+      "price": 7.99,
+      "description": "Crispy golden cut fries tossed in white truffle oil, grated parmesan, and chives.",
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "109",
+      "restaurantId": "3",
+      "name": "Salted Caramel Shake",
+      "category": "Beverage",
+      "price": 6.5,
+      "description": "Hand-spun vanilla bean ice cream blended with salted butter caramel and whipped cream.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
+      "available": false
+    },
+    {
+      "id": "110",
+      "restaurantId": "4",
+      "name": "Dragon Salmon Roll",
+      "category": "Sushi",
+      "price": 17.5,
+      "description": "Tempura prawn, creamy avocado, topped with fresh Atlantic salmon, spicy mayo, and unagi glaze.",
+      "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "111",
+      "restaurantId": "4",
+      "name": "Rich Tonkotsu Ramen",
+      "category": "Soup & Noodles",
+      "price": 16,
+      "description": "Slow-simmered rich pork broth, fresh ramen noodles, chashu slices, soft egg, and nori seaweed.",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "112",
+      "restaurantId": "5",
+      "name": "Mediterranean Quinoa Bowl",
+      "category": "Salad & Bowls",
+      "price": 13.5,
+      "description": "Organic rainbow quinoa, cherry tomatoes, kalamata olives, crisp cucumbers, feta, and lemon tahini.",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    },
+    {
+      "id": "113",
+      "restaurantId": "5",
+      "name": "Acai Energy Berry Bowl",
+      "category": "Dessert",
+      "price": 11,
+      "description": "Pure Amazonian acai blend crowned with granola, fresh strawberries, blueberries, chia, and raw honey.",
+      "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=800&q=80",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "customerName": "Sophia Taylor",
+      "customerPhone": "+1 (555) 234-5678",
+      "deliveryAddress": "742 Evergreen Terrace, Apt 4B",
+      "items": [
+        {
+          "foodId": "101",
+          "name": "Margherita Con Basilico",
+          "price": 14.99,
+          "quantity": 2,
+          "restaurantName": "Bella Italia Bistro"
+        },
+        {
+          "foodId": "103",
+          "name": "Classic Tiramisu Classico",
+          "price": 8.5,
+          "quantity": 1,
+          "restaurantName": "Bella Italia Bistro"
+        }
+      ],
+      "totalAmount": 38.48,
+      "orderStatus": "Preparing",
+      "createdAt": "2026-10-29T16:30:00.000Z"
+    },
+    {
+      "id": "1002",
+      "customerName": "Alexander Wright",
+      "customerPhone": "+1 (555) 987-6543",
+      "deliveryAddress": "1204 Pine Hill Road",
+      "items": [
+        {
+          "foodId": "104",
+          "name": "Royal Butter Chicken",
+          "price": 16.99,
+          "quantity": 1,
+          "restaurantName": "Spice Symphony"
+        },
+        {
+          "foodId": "106",
+          "name": "Garlic Herb Butter Naan",
+          "price": 4.5,
+          "quantity": 2,
+          "restaurantName": "Spice Symphony"
+        }
+      ],
+      "totalAmount": 25.99,
+      "orderStatus": "Ready",
+      "createdAt": "2026-10-29T15:45:00.000Z"
+    },
+    {
+      "id": "1003",
+      "customerName": "Emma Watson",
+      "customerPhone": "+1 (555) 345-6789",
+      "deliveryAddress": "88 Sunset Blvd",
+      "items": [
+        {
+          "foodId": "110",
+          "name": "Dragon Salmon Roll",
+          "price": 17.5,
+          "quantity": 1,
+          "restaurantName": "Tokyo Zen Japanese"
+        }
+      ],
+      "totalAmount": 17.5,
+      "orderStatus": "Delivered",
+      "createdAt": "2026-10-29T14:15:00.000Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
