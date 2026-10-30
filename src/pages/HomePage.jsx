@@ -58,7 +58,7 @@ export default function HomePage() {
               <span>Gourmet Delivery Experience</span>
             </div>
             <h1 className="hero-title">
-              Savor Culinary Masterpieces <br />
+              Mana Ruchulu Masterpieces <br />
               <span className="hero-title-gradient">Delivered To Your Door.</span>
             </h1>
             <p className="hero-subtitle">

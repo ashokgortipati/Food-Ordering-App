@@ -18,8 +18,8 @@ export default function Navbar() {
             <UtensilsCrossed size={22} className="brand-icon" />
           </div>
           <div className="brand-text">
-            <span className="brand-title">Feast<span className="brand-accent">Hub</span></span>
-            <span className="brand-tagline">Gourmet Portal</span>
+            <span className="brand-title"><span className="brand-accent">Hub</span></span>
+            <span className="brand-tagline">Mana Ruchulu Portal</span>
           </div>
         </Link>
 
